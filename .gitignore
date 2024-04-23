@@ -1,0 +1,31 @@
+# Build results
+/target
+/schema
+/artifacts
+target
+/data-sharing/target
+/data-sharing/schema
+/data-sharing/artifacts
+/data-qualify/target
+/data-qualify/schema
+/data-qualify/artifacts
+/data-anonymization/target
+/data-anonymization/schema
+/data-anonymization/artifacts
+/road-usage-charge/target
+/road-usage-charge/schema
+/road-usage-charge/artifacts
+
+# Cargo+Git helper file (https://github.com/rust-lang/cargo/blob/0.44.1/src/cargo/sources/git/utils.rs#L320-L327)
+.cargo-ok
+
+# Text file backups
+**/*.rs.bk
+
+# macOS
+.DS_Store
+
+# IDEs
+*.iml
+.idea
+
